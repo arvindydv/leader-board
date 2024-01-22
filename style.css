@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    margin-top: -2rem;
+}
+.conatiner{
+    width: 100%;
+    height: 698px;
+    background-image:  url("https://media.istockphoto.com/id/1527540032/photo/old-wall-with-dead-ivy.jpg?b=1&s=612x612&w=0&k=20&c=8_qQsBwOwA38bn1PMCJ_Yd2Hhgbj1Mf9QFst-DuldzU=");
+}
+.leader-board{
+    width: 75%;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+form{
+    margin: 2rem 0px;
+    width: 100%;
+}
+input{  
+    padding: 10px;
+    border: 1px solid green;
+    outline: none;
+    border-radius: 4px;
+}
+#add-player{
+    background: #4a4848;
+    color: white;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.player{
+    display: flex;
+    background: #4a4848;
+    color: white;
+    padding: 2.5rem;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete, .increase, .decrease{
+    cursor: pointer;
+}
